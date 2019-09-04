@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="moduleOne">
+  <head>
+    <script type="text/javascript" src="angular.js"> </script>
+    <script type="text/javascript" src="basiccontrollerscript.js"></script>
+  </head>
+  <body>
+    <div ng-controller="accountsController">
+      Account Number <input type="text" ng-model="account.accountNumber"/><br/>
+      Account Holder Name <input type="text" ng-model="account.accountHolderName"/><br/>
+      Account Balance <input type="text" ng-model="account.banalce"/><br/>
+      <br/>
+      {{account.accountNumber}} <br/>
+      {{account.accountHolderName}} <br/>
+      {{account.banalce}} <br/>
+
+    </div>
+
+    <hr/>
+
+    <div ng-controller="mathsController">
+      <input type="text" ng-model="a"/>
+      {{a}}
+
+    </div>
+
+
+
+
+
+  </body>
+</html>
